@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+#game {
+  padding: 2rem 0;
+}
+
+#gameScreen {
+  border: 0.125rem solid black;
+  height: 600px;
+  margin: auto;
+  padding: 0;
+  display: block;
+}
+#gameControls {
+  border: 0.125rem solid black;
+  width: 40rem;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 4rem;
+  background: black;
+  display: none;
+}
+button.control {
+  color: white;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 3rem;
+  margin: 0.5rem 0.25rem;
+  text-align: center;
+  width: 10rem;
+  border: none;
+}
+
+button:hover {
+  box-shadow: 0 0 1px 1px #102447;
+  background-color: #d0ddf2;
+  color: black;
+}
+
+img {
+  display: none;
+}
